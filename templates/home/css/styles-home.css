@@ -1,0 +1,24 @@
+#slideshow{height:385px;margin:0 0 40px;overflow-x:hidden}
+#content{background:url(/templates/home/images/bg_content.jpg) top left repeat-y;display:block;margin:0 0 20px}
+#content .left{display:inline;float:left;left:0;padding:0 40px 0 0;width:540px}
+#content .right{display:inline;float:right;right:0;width:360px}
+#slider{height:313px;width:940px;z-index:1;background:url(../images/hero-shadow.jpg) bottom left no-repeat}
+#slider .background{background-position:top left;background-repeat:no-repeat;height:298px;width:940px;z-index:1}
+#slider .background .foreground{width:300px;height:395px;background-position:top left;background-repeat:no-repeat;float:right;position:absolute;right:0;top:-20px;z-index:900}
+#slider ul.pagination{float:left;left:0;list-style:none;position:absolute;top:318px;z-index:99}
+#slider ul.pagination li{float:left;display:inline-block;margin:0 20px 0 0;z-index:99}
+#slider ul.pagination img{filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:url(desaturate.svg#greyscale);filter:gray;margin:0 0 5px}
+#slider ul.pagination .current img{filter:none;-webkit-filter:none;-moz-filter:none;-ms-filter:none;-o-filter:none;filter:none;filter:none}
+#slider ul.pagination li a h3{color:#000;display:block;font-size:13px}
+#banners{margin:40px 0}
+.banneritem{float:left;width:300px;display:inline-block;text-align:center}
+.banneritem h2{font-size:20px!important;margin:0 0 10px!important}
+.banneritem img{margin:0 0 15px!important}
+.banneritem a.image{display:block;background:url(../images/banner-shadow.jpg) bottom left no-repeat;margin:0 0 5px}
+#__news{margin:0 0 20px}
+#__news h2{font-size:28px}
+.__newsImage{float:left;margin:0 20px 0 0;z-index:99}
+.__newsBody h3{margin:0 0 8px 0!important}
+.__newsMore{margin:5px 0 0}
+.__newsMore,.__newsMore a{color:#777;font-style:italic;text-decoration:none}
+div.banneritem img,.__newsItems{margin:0 0 20px}
