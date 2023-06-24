@@ -36,7 +36,7 @@ h2#vt a{color:#000!important}
 h2#vt a.active,h2#vt a:hover{color:#97bf0d!important;text-decoration:none!important}
 #virtualTour{margin:0 0 20px}
 #youtube{display:block;height:350px}
-#youtube .center{float:center;margin:0 30px 0 0;right:0;width:250px}
+#youtube .center{float:left;margin:0 30px 0 30px;width:2500px}
 #youtube .left{float:left;width:250px}
 #youtube .right{float:right;margin:0 30px 0 0;right:0;width:250px}
 #youtube ul{list-style:none;width:250px}
