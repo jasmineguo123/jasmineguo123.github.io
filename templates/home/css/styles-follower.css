@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content{background:url(/templates/home/images/bg_content-f.jpg) top right repeat-y;display:block;margin:0 0 20px}
+#content .left{display:inline;float:left;left:0;padding:0;width:150px}
+#content .right{display:inline;float:right;right:0;width:750px}
+#slider{height:267px;margin:0 0 40px;width:750px;z-index:1}
+#slider ul.pagination{bottom:15px;display:none;float:right;list-style:none;position:absolute;right:15px;z-index:99}
+#slider ul.pagination li{float:left;z-index:99}
+#slider ul.pagination li a{background:url(/templates/home/images/bg_slidercontrols.jpg) -13px 0 no-repeat;float:left;height:13px;margin:0 0 0 5px;text-indent:-9999em;width:13px;z-index:99}
+#slider ul.pagination li.current a{background:url(/templates/home/images/bg_slidercontrols.jpg) 0 0 no-repeat}
+#slides{height:280px;overflow:hidden;width:750px;background:url(../images/sub-shadow.jpg) bottom left no-repeat}
+#slides .prev{float:right;position:absolute;right:50px;top:235px;z-index:99}
+#slides .next{float:right;position:absolute;right:20px;top:235px;z-index:99}
+.slides_container{overflow:visible;z-index:99}
+.caption{background:url(/templates/home/images/bg_caption.png) top left repeat;border-top:1px solid #000;bottom:0;color:#fff;font-size:14px;height:25px;left:0;padding:15px 20px 0;position:absolute;width:710px;z-index:500}
+.banneritem{background:url(/templates/home/images/bg_contentright.png) bottom left repeat-x;float:left;margin:0 20px 0 0;padding:20px 0;width:150px}
+.banneritem img{margin:0 0 10px}
+#__news{margin:0;padding:0}
+.__newsItems{padding:20px 0}
+.__newsImage{float:left;height:85px;left:0;margin:0 20px 0 0;z-index:99}
+.__newsImageFull{float:left;height:150px;left:0;margin:0 20px 20px 0;z-index:99}
+.__newsImage img,.__newsImageFull img{/*border:solid 1px #7f7f7f*/}
+.__newsTitle{background:url(/templates/home/images/bg_contentright.png) bottom left repeat-x;margin:0 0 20px;padding:0 0 10px;width:100%}
+.__newsTitle h2{float:left;margin:0;padding:0}
+.__newsTitle .__newsDate{float:right;right:0;top:5px}
+.__newsBody{line-height:18px;top:-3px}
+.__newsMore{margin:5px 0 0}
+.__newsMore,.__newsMore a{color:#777;font-style:italic;text-decoration:none}
+.__newsBody h3{margin:0 0 8px 0!important}
+.content h2{background:url(/templates/home/images/bg_contentright.png) bottom left repeat-x;clear:both;font-size:18px;font-weight:400;margin:20px 0;padding:0 0 10px}
+.content img{float:left;left:0;margin:0 20px 20px 0}
+.flag{float:left;width:60px}
+.flag img{border:none!important}
+h2#vt a{color:#000!important}
+h2#vt a.active,h2#vt a:hover{color:#97bf0d!important;text-decoration:none!important}
+#virtualTour{margin:0 0 20px}
+#youtube{display:block;height:350px}
+#youtube .center{float:center;margin:0 30px 0 0;right:0;width:250px}
+#youtube .left{float:left;width:250px}
+#youtube .right{float:right;margin:0 30px 0 0;right:0;width:250px}
+#youtube ul{list-style:none;width:250px}
+#youtube ul li{background:#f6f6f6 url(/templates/home/images/bg_contentright.png) bottom left repeat-x;clear:both;display:block;height:67px;padding:10px;width:230px}
+.caroufredsel_wrapper{ height:352px!important;}
+#youtube ul li p{line-height:normal;margin:0;padding:0;overflow:auto;}
+#youtube ul li.currentvideo{background:#e5e5e5 url(/templates/home/images/bg_contentright.png) bottom left repeat-x}
+#youtube img{border:none;float:left;height:60px;margin:0 10px 0 0;width:80px}
+#youtube .yt-vid{display:block;float:left;text-indent:-9999em;width:80px}
+#youtube .info{display:block;float:left;font-size:11px;margin:0 0 0 10px;width:140px;height:50px;height: 70px;overflow: auto;overflow-x: hidden;}
+#youtube .info h3{font-size:14px;margin:0 0 5px}
+#youtube #prev{cursor:pointer;height:10px;position:absolute;right:0;top:0;width:20px;z-index:9999}
+#youtube #next{cursor:pointer;height:15px;position:absolute;right:0;top:20px;width:20px;z-index:9999}
+#youtube #prev img,#youtube #next img{cursor:pointer;height:15px;width:20px}
+.map{postition:relative;width:350px;height:200px;float:right;right:0;margin:0 0 20px 20px;z-index:5000}
