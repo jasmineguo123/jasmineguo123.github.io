@@ -29,7 +29,7 @@
 	text-decoration: none
 }
 #s1_menu ul li.item1 > a:hover, #menu ul li.item1.active > a, #menu ul li.item1.open > a {
-	border-bottom: solid 10px #e2001a
+	border-bottom: solid 0px #e2001a
 }
 #s1_menu ul li.item27 > a:hover, #menu ul li.item27.active > a, #menu ul li.item27.open > a {
 	border-bottom: solid 10px #f29400
