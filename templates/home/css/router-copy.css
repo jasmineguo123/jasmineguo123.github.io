@@ -11,6 +11,7 @@
 	background-image: url(/templates/home/images/bg_menu.jpg);
 	background-position: right;
 	background-repeat: no-repeat;
+	border-bottom: solid 10px #464646;
 	color: #fff;
 	display: inline;
 	float: left;
