@@ -11,11 +11,11 @@
 	background-image: url(/templates/home/images/bg_menu.jpg);
 	background-position: right;
 	background-repeat: no-repeat;
-	border-bottom: solid 10px #464646;
 	color: #fff;
 	display: inline;
 	float: left;
 	font-size: 12px;
+	padding: 19px 10px 14px;
 	text-decoration: none;
 	z-index: 999
 }
