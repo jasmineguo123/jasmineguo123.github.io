@@ -385,12 +385,11 @@ hr {
     border: 1px solid #2f2e2e;
     width: 96%;
     color: #2f2e2e;
-	margin-left: 350px
 }
 
 #line {
     float: left;
-	
+	margin-left: 1350px
     width: 50px;
     height: 10px;
 }
