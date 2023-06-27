@@ -389,6 +389,7 @@ hr {
 
 #line {
     float: left;
+	
     width: 100px;
     height: 10px;
 }
