@@ -381,3 +381,15 @@ pre {
 .members {
 	margin: 0 0 20px
 }
+hr {
+    border: 1px solid #FF0000;
+    width: 96%;
+    color: #FF0000;
+}
+
+
+#line {
+    float: left;
+    width: 731px;
+    height: 10px;
+}
