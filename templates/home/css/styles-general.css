@@ -1561,3 +1561,11 @@ a:hover .t_small-listing-title .underline,
 .listing--media__meta {
     margin-top: 5px;
 }
+
+.t_small-listing-title {
+    padding-top: 20px;
+}
+
+.t_thumb+.t_small-listing-title {
+    padding-top: 25px;
+}
