@@ -1311,6 +1311,10 @@ hr {
     height: 30px;
 }
 
+.no-svg .icon__play--sm--white {
+    background-image: url(/img/png/icon__play--sm--white.jpeg);
+}
+
 .t_meta {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
