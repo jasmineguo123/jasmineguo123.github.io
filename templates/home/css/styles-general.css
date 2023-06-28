@@ -1279,4 +1279,81 @@ hr {
     height: 30px;
 }
 
+.t_meta {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+@media (max-width: 1279px) {
+    .t_meta {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 1.66667;
+    }
+
+    .benton-normal-normal-loaded .t_meta {
+        font-family: Benton, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .t_meta:before,
+    .t_meta:after {
+        content: "";
+        display: block;
+    }
+
+    .t_meta:before {
+        margin-top: -1.18333em;
+    }
+
+    .t_meta:after {
+        margin-top: -0.48333em;
+    }
+}
+
+.t_meta {
+    color: #656565;
+    padding-top: 15px;
+}
+
+.listing--media .t_meta--time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .listing--media .t_meta--time {
+        display: none;
+    }
+}
+
+.video-feature .t_meta--time {
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+@media (max-width: 767px) {
+    .video-feature .t_meta--time {
+        display: none;
+    }
+}
+
+.listing--media-feature .t_meta--time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .listing--media-feature .t_meta--time {
+        display: none;
+    }
+}
 
