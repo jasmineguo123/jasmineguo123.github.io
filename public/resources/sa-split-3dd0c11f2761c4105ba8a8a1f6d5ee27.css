@@ -122,15 +122,6 @@ a {
     link-underline: "border";
 }
 
-.t_small-listing-title:before,
-.t_small-listing-title:after {
-    content: "";
-    display: block;
-}
-
-.t_small-listing-title:before {
-    margin-top: -1.04444em;
-}
 
 
 
