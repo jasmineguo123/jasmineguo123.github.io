@@ -194,42 +194,6 @@ img {
 
 
 
-.t_small-title+.t_body--article,
-.article-text>.t_small-title+p,
-.article-text>.t_small-title+ol,
-.article-text>.t_small-title+ul,
-.article-text>.t_small-title+div,
-.footer-text>.t_small-title+p,
-.footer-text>.t_small-title+ol,
-.footer-text>.t_small-title+ul {
-    padding-top: 40px;
-}
-
-.tx_meta {
-    color: #656565;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857;
-}
-
-.benton-normal-normal-loaded .tx_meta {
-    font-family: Benton, Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.t_small {
-    font-size: 0.6rem;
-}
-
-.t_xsmall {
-    font-size: 0.5rem;
-}
-
-.underlined_text {
-    border-bottom: 1px dotted #656565;
-}
-
 .t_meta {
     color: #656565;
     padding-top: 15px;
