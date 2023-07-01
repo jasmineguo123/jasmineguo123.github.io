@@ -199,16 +199,6 @@ img {
     padding-top: 15px;
 }
 
-.t_body+.t_meta,
-.article-text>p+.t_meta,
-.article-text>ol+.t_meta,
-.article-text>ul+.t_meta,
-.article-text>div+.t_meta,
-.footer-text>p+.t_meta,
-.footer-text>ol+.t_meta,
-.footer-text>ul+.t_meta {
-    padding-top: 35px;
-}
 
 
 .t_listing-title+.t_meta {
