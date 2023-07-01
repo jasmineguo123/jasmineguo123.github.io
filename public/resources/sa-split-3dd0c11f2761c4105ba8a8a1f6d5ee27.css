@@ -605,44 +605,6 @@ a:hover .tx_small-listing-title .underline,
 
 /****/
 
-.t_caption:before,
-.t_caption:after {
-    content: "";
-    display: block;
-}
-
-.t_caption:before {
-    margin-top: -1.11923em;
-}
-
-.t_caption:after {
-    margin-top: -0.41923em;
-}
-
-.tx_caption {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    line-height: 1.53846;
-}
-
-.benton-normal-normal-loaded .tx_caption {
-    font-family: Benton, Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.t_meta--sponsor {
-    font-family: Georgia, serif;
-    font-size: 13px;
-    line-height: 1.53846;
-    text-transform: uppercase;
-}
-
-.t_meta--sponsor:before,
-.t_meta--sponsor:after {
-    content: "";
-    display: block;
-}
 
 .t_meta--sponsor:before {
     margin-top: -1.11923em;
