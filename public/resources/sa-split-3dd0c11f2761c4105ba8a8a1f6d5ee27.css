@@ -134,6 +134,27 @@ a {
 
 
 
+/****/
+
+
+
+.t_meta:before,
+.t_meta:after {
+    content: "";
+    display: block;
+}
+
+.t_meta:before {
+    margin-top: -1.06429em;
+}
+
+.t_meta:after {
+    margin-top: -0.36429em;
+}
+
+
+
+/****/
 @media (max-width: 1279px) {
     .t_meta {
         font-family: Helvetica, Arial, sans-serif;
