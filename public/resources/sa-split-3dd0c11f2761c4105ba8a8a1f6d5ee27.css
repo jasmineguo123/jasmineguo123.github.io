@@ -213,6 +213,11 @@ img {
 
 
 
+.t_thumb+.t_small-listing-title {
+    padding-top: 25px;
+}
+
+
 /*****/
 
 @media (max-width: 767px) {
