@@ -606,20 +606,35 @@ a:hover .tx_small-listing-title .underline,
 /****/
 
 
-
-.t_tag:before,
-.t_tag:after {
-    content: "";
-    display: block;
+.t_meta--sponsor:before {
+    margin-top: -1.11923em;
 }
 
-.t_tag:before {
-    margin-top: -1.01667em;
+.t_meta--sponsor:after {
+    margin-top: -0.41923em;
 }
 
-.t_tag:after {
-    margin-top: -0.31667em;
+.tx_meta--sponsor {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.53846;
+    text-transform: uppercase;
 }
+
+.t_tag {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.33333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.benton-bold-normal-loaded .t_tag {
+    font-family: Benton, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 
 /****/
