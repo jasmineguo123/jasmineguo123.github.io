@@ -104,16 +104,13 @@ a {
 
 
 
-
-
-
-/* useful  end*/
-
-
-/* potential useful */
-
-
-
+.t_small-listing-title {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.38889;
+    font-weight: 400;
+    link-underline: "border";
+}
 
 .t_small-listing-title:before,
 .t_small-listing-title:after {
@@ -124,6 +121,16 @@ a {
 .t_small-listing-title:before {
     margin-top: -1.04444em;
 }
+
+
+
+
+/* useful  end*/
+
+
+/* potential useful */
+
+
 
 
 
