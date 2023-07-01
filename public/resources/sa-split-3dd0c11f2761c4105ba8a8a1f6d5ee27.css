@@ -606,20 +606,6 @@ a:hover .tx_small-listing-title .underline,
 /****/
 
 
-.t_meta--sponsor:before {
-    margin-top: -1.11923em;
-}
-
-.t_meta--sponsor:after {
-    margin-top: -0.41923em;
-}
-
-.tx_meta--sponsor {
-    font-family: Georgia, serif;
-    font-size: 13px;
-    line-height: 1.53846;
-    text-transform: uppercase;
-}
 
 .t_tag {
     font-family: Helvetica, Arial, sans-serif;
@@ -635,6 +621,19 @@ a:hover .tx_small-listing-title .underline,
     font-style: normal;
 }
 
+.t_tag:before,
+.t_tag:after {
+    content: "";
+    display: block;
+}
+
+.t_tag:before {
+    margin-top: -1.01667em;
+}
+
+.t_tag:after {
+    margin-top: -0.31667em;
+}
 
 
 /****/
