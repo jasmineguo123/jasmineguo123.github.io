@@ -199,19 +199,6 @@ img {
 
 
 
-.t_meta {
-    color: #656565;
-    padding-top: 15px;
-}
-
-
-
-
-
-
-.t_listing-title {
-    padding-top: 25px;
-}
 
 @media (max-width: 1023px) {
     .t_meta+.t_listing-title {
