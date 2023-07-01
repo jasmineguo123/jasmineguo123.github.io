@@ -68,10 +68,6 @@
 
 
 
-
-
-/* useful  start*/
-
 @-ms-viewport {
     width: device-width;
 }
@@ -83,6 +79,10 @@ html {
 }
 
 
+
+
+
+/* useful  start*/
 
 html,
 body,
