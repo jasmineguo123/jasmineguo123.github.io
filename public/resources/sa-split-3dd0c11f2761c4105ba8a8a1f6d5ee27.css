@@ -202,6 +202,11 @@ img {
 
 
 
+.t_small-listing-title+.t_meta {
+    padding-top: 25px;
+}
+
+
 .t_listing-title {
     padding-top: 25px;
 }
