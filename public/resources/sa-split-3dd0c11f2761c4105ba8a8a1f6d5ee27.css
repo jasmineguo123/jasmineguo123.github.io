@@ -1,14 +1,4 @@
 
-
-
-
-
-/* potential useful */
-
-
-
-
-
 /* useful  start*/
 
 @-ms-viewport {
@@ -119,94 +109,11 @@ a {
 
 /* useful  end*/
 
+/* potential useful */
 
 
 
-input[type="range"]::-ms-track {
-    width: 100%;
-    border-color: transparent;
-    background: transparent;
-    color: transparent;
-    cursor: pointer;
-}
 
-code,
-pre {
-    display: block;
-    clear: both;
-    overflow: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 15px;
-    max-width: 100%;
-    max-height: 500px;
-    background: #f2f2f2;
-    white-space: pre-wrap;
-    font-size: 13px;
-}
-
-p code,
-p pre {
-    display: inline-block;
-}
-
-.icon {
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-position: 50%;
-    background-size: contain;
-    vertical-align: middle;
-}
-
-.icon--subtle {
-    opacity: 0.3;
-}
-
-.icon--mid {
-    opacity: 0.5;
-}
-
-.icon--pad-right {
-    margin-right: 5px;
-}
-
-.prefix-icon {
-    margin-right: 5px;
-}
-
-html[data-useragent*="MSIE 9.0"] .icon__download--white {
-    width: 13px;
-}
-
-.key-icon {
-    margin-left: 12px;
-}
-
-.icon__comments--black {
-    background-repeat: no-repeat;
-}
-
-.no-svg .icon__comments--black {
-    background-image: url(/img/png/icon__comments--black.png);
-}
-
-.icon__comments--white {
-    background-repeat: no-repeat;
-}
-
-.no-svg .icon__comments--white {
-    background-image: url(/img/png/icon__comments--white.png);
-}
-
-.icon__ddarr--black {
-    background-repeat: no-repeat;
-    width: 9px;
-    height: 8px;
-}
 
 .no-svg .icon__ddarr--black {
     background-image: url(/img/png/icon__ddarr--black.png);
