@@ -1,37 +1,4 @@
-@font-face {
-    font-family: Benton;
-    src: local("Benton"), url(fonts/Benton-Regular.woff2) format("woff2"),
-        url(fonts/Benton-Regular.woff) format("woff");
-    font-display: fallback;
-}
 
-@font-face {
-    font-weight: 700;
-    font-family: Benton;
-    src: local("Benton"), url(fonts/Benton-Bold.woff2) format("woff2"),
-        url(fonts/Benton-Bold.woff) format("woff");
-    font-display: fallback;
-}
-
-@font-face {
-    font-family: Brunel-Deck-Semibold;
-    src: url(./fonts/Brunel-Deck-Semibold.woff);
-    font-display: fallback;
-}
-
-@font-face {
-    font-style: italic;
-    font-family: Brunel-Deck-Semibold;
-    src: url(./fonts/Brunel-Deck-Semibold-Italic.woff);
-    font-display: fallback;
-}
-
-@font-face {
-    font-style: italic;
-    font-family: Brunel-Poster-Bold;
-    src: url(./fonts/Brunel-Poster-Bold-Italic.woff);
-    font-display: fallback;
-}
 
 .checkbox--large {
     background-color: #fff;
