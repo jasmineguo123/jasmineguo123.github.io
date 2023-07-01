@@ -198,6 +198,116 @@ img {
 /*** potential start***/
 
 
+
+
+
+.t_small-listing-title {
+    padding-top: 20px;
+}
+
+.t_small-listing-title+.t_small-listing-title {
+    padding-top: 30px;
+}
+
+.t_tag+.t_small-listing-title,
+.t_meta+.t_small-listing-title {
+    padding-top: 25px;
+}
+
+@media (max-width: 1279px) {
+
+    .t_tag+.t_small-listing-title,
+    .t_meta+.t_small-listing-title {
+        padding-top: 25px;
+    }
+}
+
+.t_thumb+.t_small-listing-title {
+    padding-top: 25px;
+}
+
+.t_tag {
+    padding-top: 10px;
+}
+
+.t_tag--header {
+    padding-top: 10px;
+}
+
+.t_tag--credit {
+    padding-top: 10px;
+    padding-top: 20px;
+    color: #989898;
+    font-style: italic !important;
+}
+
+.tx_caption {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.53846;
+    color: #999;
+}
+
+.benton-normal-normal-loaded .tx_caption {
+    font-family: Benton, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t_caption {
+    color: #656565;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 20px 0 0;
+    word-break: break-all;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    letter-spacing: 0.13px;
+}
+
+@media (max-width: 760px) {
+    .t_caption {
+        font-size: 11px;
+        letter-spacing: 0;
+    }
+}
+
+.t_body+.t_caption,
+.article-text>p+.t_caption,
+.article-text>ol+.t_caption,
+.article-text>ul+.t_caption,
+.article-text>div+.t_caption,
+.footer-text>p+.t_caption,
+.footer-text>ol+.t_caption,
+.footer-text>ul+.t_caption {
+    padding-top: 40px;
+}
+
+.t_small-title+.th_caption--horz {
+    padding-top: 20px;
+}
+
+.t_quote {
+    padding-top: 35px;
+}
+
+.t_small-title {
+    padding-top: 20px;
+}
+
+.t_tout-feature-title {
+    padding-top: 30px;
+}
+
+.t_issue-label {
+    padding-top: 10px;
+}
+
+.tout_current-issue__cover+.t_issue-label {
+    padding-top: 30px;
+}
+
+
 /*****/
 
 @media (max-width: 767px) {
