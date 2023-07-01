@@ -162,13 +162,6 @@ img {
     margin-top: -0.31667em;
 }
 
-
-/* useful  end*/
-
-
-
-
-
 .t_small-listing-title {
     font-family: Georgia, serif;
     font-size: 18px;
@@ -177,20 +170,28 @@ img {
     link-underline: "border";
 }
 
+.t_small-listing-title:before,
+.t_small-listing-title:after {
+    content: "";
+    display: block;
+}
+
+.t_small-listing-title:before {
+    margin-top: -1.04444em;
+}
+
+.t_small-listing-title:after {
+    margin-top: -0.34444em;
+}
 
 
-/****/
+/* useful  end*/
 
 
 
 
 
 
-
-
-
-
-/****/
 
 .t_article-rightslink:before,
 .t_article-rightslink:after {
