@@ -64,7 +64,6 @@
     border-color: 0 0 5px #ef194a;
 }
 
-/* potential useful */
 html,
 body,
 div,
@@ -217,6 +216,12 @@ label {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
