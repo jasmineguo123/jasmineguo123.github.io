@@ -64,26 +64,6 @@
     border-color: 0 0 5px #ef194a;
 }
 
-/* potential useful */
-
-
-
-@-ms-viewport {
-    width: device-width;
-}
-
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-
-
-
-
-/* useful  start*/
-
 html,
 body,
 div,
@@ -159,6 +139,53 @@ video {
     font-size: 100%;
 }
 
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+
+body {
+    line-height: 1;
+}
+
+button {
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+main {
+    display: block;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 * {
     -webkit-box-sizing: inherit;
@@ -166,19 +193,76 @@ video {
     box-sizing: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+small,
+table,
+label {
+    margin: 0;
+}
 
+/* useful  start*/
+
+
+hr {
+    display: block;
+    margin: 0;
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+}
 
 a {
     color: inherit;
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+input {
+    padding: 0;
+    border: 0;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+input[type="range"]:not(.lum-pan-zoom) {
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
 
 
 
-
-
-/* useful  end*/
+/* useful  start*/
 
 
 
