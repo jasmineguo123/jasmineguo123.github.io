@@ -212,7 +212,48 @@ a:hover .t_small-listing-title .underline,
         display: inline;
     }
 }
+/****/
 
+
+.tx_small-listing-title {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.38889;
+    font-weight: 400;
+    link-underline: "border";
+}
+
+.tx_small-listing-title a {
+    display: block;
+}
+
+
+
+.t_meta {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.benton-normal-normal-loaded .t_meta {
+    font-family: Benton, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.t_meta:before,
+.t_meta:after {
+    content: "";
+    display: block;
+}
+
+.t_meta:before {
+    margin-top: -1.06429em;
+}
+
+.t_meta:after {
+    margin-top: -0.36429em;
+}
 
 
 
