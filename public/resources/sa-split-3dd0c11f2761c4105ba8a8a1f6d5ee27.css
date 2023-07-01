@@ -206,29 +206,6 @@ img {
 
 
 
-
-
-
-.t_listing-title {
-    padding-top: 25px;
-}
-
-@media (max-width: 1023px) {
-    .t_meta+.t_listing-title {
-        padding-top: 30px;
-    }
-}
-
-@media (max-width: 767px) {
-    .t_listing-title {
-        padding-top: 15px;
-    }
-}
-
-.t_meta+.t_listing-title {
-    padding-top: 45px;
-}
-
 .t_small-listing-title {
     padding-top: 20px;
 }
