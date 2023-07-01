@@ -104,6 +104,16 @@ a {
 
 
 
+
+
+
+/* useful  end*/
+
+
+/* potential useful */
+
+
+
 .t_small-listing-title {
     font-family: Georgia, serif;
     font-size: 18px;
@@ -121,16 +131,6 @@ a {
 .t_small-listing-title:before {
     margin-top: -1.04444em;
 }
-
-
-
-
-/* useful  end*/
-
-
-/* potential useful */
-
-
 
 
 
@@ -159,6 +159,28 @@ a {
     }
 }
 
+@media (max-width: 767px) {
+    .tx_small-listing-title {
+        font-family: Georgia, serif;
+        font-size: 16px;
+        line-height: 1.25;
+        font-weight: 400;
+        link-underline: "border";
+    }
+
+    .tx_small-listing-title a {
+        display: block;
+    }
+
+    .hit-area:hover .tx_small-listing-title .underline,
+    .hit:hover .tx_small-listing-title .underline,
+    a:hover .tx_small-listing-title .underline,
+    .tx_small-listing-title a:hover .underline {
+        background-size: 1px 1em;
+        box-shadow: inset 0 -0.175em white, inset 0 -0.2em #989898;
+        display: inline;
+    }
+}
 
 .t_meta {
     font-family: Helvetica, Arial, sans-serif;
@@ -166,6 +188,11 @@ a {
     line-height: 1.42857;
 }
 
+.benton-normal-normal-loaded .t_meta {
+    font-family: Benton, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 .t_meta:before,
 .t_meta:after {
@@ -181,9 +208,6 @@ a {
     margin-top: -0.36429em;
 }
 
-
-
-/****/
 @media (max-width: 1279px) {
     .t_meta {
         font-family: Helvetica, Arial, sans-serif;
