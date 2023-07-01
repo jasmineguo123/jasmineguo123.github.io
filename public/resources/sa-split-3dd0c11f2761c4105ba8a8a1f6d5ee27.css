@@ -199,58 +199,7 @@ img {
     padding-top: 15px;
 }
 
-.t_body+.t_meta,
-.article-text>p+.t_meta,
-.article-text>ol+.t_meta,
-.article-text>ul+.t_meta,
-.article-text>div+.t_meta,
-.footer-text>p+.t_meta,
-.footer-text>ol+.t_meta,
-.footer-text>ul+.t_meta {
-    padding-top: 35px;
-}
 
-@media (max-width: 767px) {
-
-    .t_body+.t_meta,
-    .article-text>p+.t_meta,
-    .article-text>ol+.t_meta,
-    .article-text>ul+.t_meta,
-    .article-text>div+.t_meta,
-    .footer-text>p+.t_meta,
-    .footer-text>ol+.t_meta,
-    .footer-text>ul+.t_meta {
-        padding-top: 25px;
-    }
-}
-
-.t_listing-title+.t_meta {
-    padding-top: 35px;
-}
-
-.t_small-listing-title+.t_meta {
-    padding-top: 25px;
-}
-
-@media (max-width: 1023px) {
-    .t_small-listing-title+.t_meta {
-        padding-top: 20px;
-    }
-}
-
-.t_tag+.t_meta {
-    padding-top: 20px;
-}
-
-.t_feature-title+.t_meta {
-    padding-top: 40px;
-}
-
-@media (max-width: 767px) {
-    .t_feature-title+.t_meta {
-        padding-top: 25px;
-    }
-}
 
 .t_listing-title {
     padding-top: 25px;
