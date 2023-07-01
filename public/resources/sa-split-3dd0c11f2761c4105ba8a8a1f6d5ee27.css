@@ -2,72 +2,18 @@
 
 
 
-@media (max-width: 767px) {
-    .flex-column--full-mobile {
-        flex: 0 0 100%;
-    }
-}
-
-.label {
-    display: block;
-    margin: 0 0 5px;
-    font-size: 0.8em;
-    font-family: Benton, Helvetica, Arial, sans-serif;
-}
-
-.label--inline {
-    display: inline;
-    margin: 0 0 5px;
-    font-size: 0.8em;
-    font-family: Benton, Helvetica, Arial, sans-serif;
-}
-
-.input {
-    display: inline-block;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #e5e5e5;
-    border-radius: 0;
-    font-size: 0.8em;
-    height: 2.5rem;
-}
-
-.input:invalid {
-    border-color: 0 0 5px #ef194a;
-}
-
-.input--rounded {
-    display: inline-block;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #e5e5e5;
-    border-radius: 4px;
-    font-size: 0.8em;
-    height: 2.5rem;
-}
-
-.input--rounded:invalid {
-    border-color: 0 0 5px #ef194a;
-}
-
-.input--block-rounded {
-    display: block;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #e5e5e5;
-    border-radius: 4px;
-    font-size: 0.8em;
-    height: 2.5rem;
-}
-
-.input--block-rounded:invalid {
-    border-color: 0 0 5px #ef194a;
-}
 
 /* potential useful */
 
 
 
+
+
+/* useful  start*/
+
+@-ms-viewport {
+    width: device-width;
+}
 
 html {
     -webkit-box-sizing: border-box;
@@ -76,10 +22,6 @@ html {
 }
 
 
-
-
-
-/* useful  start*/
 
 html,
 body,
