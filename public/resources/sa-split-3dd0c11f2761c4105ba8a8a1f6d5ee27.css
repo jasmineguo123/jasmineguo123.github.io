@@ -361,16 +361,6 @@ img {
     vertical-align: top;
 }
 
-.landing-header__nav__switch {
-    display: none;
-}
-
-@media (max-width: 1023px) {
-    .landing-header__nav__switch {
-        display: block;
-    }
-}
-
 .landing-header__nav__list {
     margin-left: -35px;
     font-size: 0.9375rem;
