@@ -410,54 +410,6 @@ img {
 }
 
 
-
-@media (min-width: 768px) {
-    .listing--media+.listing--media {
-        position: relative;
-    }
-
-    .listing--media+.listing--media:before {
-        content: "";
-        width: 100%;
-        height: 1px;
-        border-top: 1px dotted #b2b2b2;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .listing--media+.listing--media {
-        position: relative;
-    }
-
-    .listing--media+.listing--media:before {
-        content: "";
-        width: 100%;
-        height: 1px;
-        border-top: 1px dotted #b2b2b2;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-}
-
-@media (max-width: 767px) {
-
-    .listing--media,
-    .listing--media+.listing--media {
-        padding-top: 20px;
-        margin-top: 25px;
-    }
-
-    .panel-first .listing--media:first-child {
-        padding-top: 0;
-        margin-top: 0;
-        border-top: 0;
-    }
-}
-
 .listing--media__thumb {
     position: relative;
 }
