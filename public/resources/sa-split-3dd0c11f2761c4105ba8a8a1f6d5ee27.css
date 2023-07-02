@@ -397,49 +397,12 @@ img {
 
 
 
-.listing__meta {
-    margin-top: 5px;
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .listing {
-        margin-bottom: 30px;
-    }
-}
-
 @media (max-width: 767px) {
-    .listing {
-        padding-top: 30px;
-        border-top: 1px dotted #b2b2b2;
-    }
-
-    .listing:before,
-    .listing:after {
-        content: " ";
-        display: table;
-    }
-
-    .listing:after {
-        clear: both;
-    }
-
-    .listing {
-        *zoom: 1;
-    }
 
     .listing--with-thumb {
         padding-right: 110px;
     }
 
-    .listing__thumb {
-        float: right;
-        margin-right: -110px;
-        width: 80px;
-    }
-
-    .listing .t_small-listing-title {
-        padding-top: 25px;
-    }
 }
 
 .listing--media {
