@@ -3219,3 +3219,6 @@ html[data-useragent*="MSIE 8.0"] .video-feature:after {
 
 /**useful*/
 
+.related-videos-group .listing--media {
+    border-bottom: none;
+}
