@@ -648,10 +648,6 @@ img {
     }
 }
 
-.recent-videos-group__item .listing--media {
-    border-bottom: 1px dotted #b2b2b2;
-    padding-bottom: 40px;
-}
 
 @media (max-width: 767px) {
     .recent-videos-group__item .listing--media {
