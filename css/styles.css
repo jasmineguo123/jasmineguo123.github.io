@@ -1,13 +1,3 @@
-@charset "UTF-8";
-#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item.active {
-    border-bottom: 0.1in solid #0C0101;
-}
-#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item.active li a:hover {
-    border-bottom: 0.1in solid #E61014;
-}
-#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item.antenna {
-    border-bottom: 0.1in solid #000000;
-}
-#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item.antenna li a:hover {
-    border-bottom: 0.1in solid #092C9E;
+@charset "UTF-8";.container .row .col-lg-6-right {
+   padding-left: 4.1in;
 }
