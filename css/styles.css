@@ -173,3 +173,6 @@ tr td p {
     font-style: italic;
     font-size: small;
 }
+.container .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-toggler {
+    background-color: #CBCBCB;
+}
