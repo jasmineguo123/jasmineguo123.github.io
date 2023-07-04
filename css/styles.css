@@ -142,8 +142,9 @@ tr td p {
 .row .col-lg-4 .card.col-md-4.col-lg-12 {
 	border: none
 }
-.container-fluid .container .text-center {
+.container-fluid .container .text-center-double {
     border-bottom: medium double #262626;
+    text-align: center;
 }
 .row .col-lg-3 .card.col-md-4.col-lg-12 {
 	border: none
