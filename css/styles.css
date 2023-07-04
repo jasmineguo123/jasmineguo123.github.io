@@ -1,3 +1,174 @@
-@charset "UTF-8";.container .row .col-lg-6-right {
-	margin-left: 10%;
+@charset "UTF-8";
+
+
+
+.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-image: -webkit-linear-gradient(270deg,rgba(126,125,125,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(126,125,125,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(126,125,125,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(126,125,125,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    color: #FDFDFD;
+	border-bottom: 5px solid #ddd;
+	height: 55px;
+}
+
+
+tr td a {
+    color:#797979;
+}
+.navbar-nav.mr-auto .nav-item.active .nav-link {
+    height: 50px;
+    border-bottom: thick solid #1D1B1B;
+    color: #DBCCCC;
+    font-style: normal;
+    text-align: center;
+}
+
+.navbar-nav.mr-auto .nav-item.active .nav-link:hover {
+    color: #FFFFFF;
+    border-bottom: thick solid #F50A0E;
+}
+.container-fluid .container .row {
+}
+.container .row .col-lg-12 {
+    border-top: medium solid #636363;
+}
+
+.navbar-nav.mr-auto .nav-item-yellow .nav-link {
+    height: 50px;
+    border-bottom: thick solid #1D1B1B;
+    color: #DBCCCC;
+    font-style: normal;
+    text-align: center;
+}
+
+.navbar-nav.mr-auto .nav-item-yellow .nav-link:hover {
+    color: #FFFFFF;
+    border-bottom: thick solid #F5C109;
+}
+
+.navbar-nav.mr-auto .nav-item-green .nav-link {
+    height: 50px;
+    border-bottom: thick solid #1D1B1B;
+    color: #DBCCCC;
+    font-style: normal;
+    text-align: center;
+}
+
+.navbar-nav.mr-auto .nav-item-green .nav-link:hover {
+    color: #FFFFFF;
+    border-bottom: thick solid #09F530;
+}
+
+
+.navbar-nav.mr-auto .nav-item-purple .nav-link {
+    height: 50px;
+    border-bottom: thick solid #1D1B1B;
+    color: #DBCCCC;
+    font-style: normal;
+    text-align: center;
+}
+
+.navbar-nav.mr-auto .nav-item-purple .nav-link:hover {
+    color: #FFFFFF;
+    border-bottom: thick solid #7F09F5;
+}
+
+.navbar-nav.mr-auto .nav-item-blue .nav-link {
+    height: 50px;
+    border-bottom: thick solid #1D1B1B;
+    color: #DBCCCC;
+    font-style: normal;
+    text-align: center;
+    font-variant: normal;
+}
+
+.navbar-nav.mr-auto .nav-item-blue .nav-link:hover {
+    color: #FFFFFF;
+    border-bottom: thick solid #0916F5;
+}
+
+.navbar-nav.mr-auto .nav-item-violent .nav-link {
+    height: 50px;
+    border-bottom: thick solid #1D1B1B;
+    color: #DBCCCC;
+    font-style: normal;
+    text-align: center;
+    font-variant: normal;
+}
+
+.navbar-nav.mr-auto .nav-item-violent .nav-link:hover {
+    color: #FFFFFF;
+    border-bottom: thick solid #6A09F5;
+}
+
+.navbar-nav.mr-auto .nav-item-orange .nav-link {
+    height: 50px;
+    border-bottom: thick solid #1D1B1B;
+    color: #DBCCCC;
+    font-style: normal;
+    text-align: center;
+    font-variant: normal;
+}
+
+.navbar-nav.mr-auto .nav-item-orange .nav-link:hover {
+    color: #FFFFFF;
+    border-bottom: thick solid #F56D09;
+}
+
+
+
+
+
+tr td a a:hover {
+    color: #EF0E3F;
+}
+
+tr td p {
+    font-size: small;
+}
+
+.container .row .col-lg-8 {
+	border-right: dotted;
+}
+.row .col-lg-4 .card.col-md-4.col-lg-12-3 {
+	padding-left: 0.6in;
+}
+.card.col-md-4.col-lg-12-3.col-lg-12 .card-body .card-title {
+	margin-left: -0.6in;
+}
+.container .row .col-lg-4 {
+}
+.row .col-lg-4 .card.col-md-4.col-lg-12 {
+	border: none
+}
+.container-fluid .container .text-center {
+    border-bottom: medium double #262626;
+}
+.row .col-lg-3 .card.col-md-4.col-lg-12 {
+	border: none
+}
+.col-lg-3 .card.col-md-4.col-lg-12 .holder .card-img-top {
+	position: relative
+}
+.card.col-md-4.col-lg-12 .holder .overlay {
+	position: relative;
+	margin-top: -38%;
+	margin-left: 37%;
+    background-image: url(../images/play-icon-white-png.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 70px;
+	height: 70px;
+}
+
+
+.card.col-md-4.col-lg-12 .card-body .card-title {
+    margin-left: -20px;
+}
+.card.col-md-4.col-lg-12 .card-body .card-p {
+    margin-left: -20px;
+	margin-top: -5px;
+    font-style: italic;
+    font-size: small;
 }
