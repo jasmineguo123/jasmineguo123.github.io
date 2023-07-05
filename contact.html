@@ -30,7 +30,27 @@
 </div>
         </nav>
 		  <br>
-	    <h1 class="text-center-double text-center">Contact Us</h1>
+	    <h1 class="text-center">Contact Us</h1>
+		<p class="text-center">
+Contact us today, and get reply with next 1–2 business days!</p>
+
+<form id="contact" class="contactcontainer" action="contact_form.php" method="post">
+    <fieldset>
+      <input name="name" type="text" autofocus required id="name" placeholder="Full name" tabindex="1">
+    </fieldset>
+	   <fieldset>
+      <input name="email" type="email" required id="email" placeholder="Your Email Address" tabindex="2">
+    </fieldset>
+	  <fieldset>
+      <input name="subject" type="text" autofocus required id="subject" placeholder="Subject" tabindex="3">
+    </fieldset>
+    <fieldset>
+      <textarea name="message" required id="message" placeholder="Type your Message Here...." tabindex="4"></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
 		
 	    <br>
 	    
