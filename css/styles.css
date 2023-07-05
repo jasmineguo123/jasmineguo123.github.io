@@ -2,7 +2,7 @@
 
 
 
-.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+.container .container-fluid .navbar.navbar-expand-lg.navbar-light.bg-light {
     background-image: -webkit-linear-gradient(270deg,rgba(126,125,125,1.00) 0%,rgba(0,0,0,1.00) 100%);
     background-image: -moz-linear-gradient(270deg,rgba(126,125,125,1.00) 0%,rgba(0,0,0,1.00) 100%);
     background-image: -o-linear-gradient(270deg,rgba(126,125,125,1.00) 0%,rgba(0,0,0,1.00) 100%);
@@ -30,7 +30,7 @@ tr td a {
 }
 .container-fluid .container .row {
 }
-.container .row .col-lg-12 {
+.container-fluid .row .col-lg-12 {
     border-top: medium solid #636363;
 }
 
@@ -128,7 +128,7 @@ tr td p {
     font-size: small;
 }
 
-.container .row .col-lg-8 {
+.container-fluid .row .col-lg-8 {
 	border-right: dotted;
 }
 .row .col-lg-4 .card.col-md-4.col-lg-12-3 {
@@ -142,7 +142,7 @@ tr td p {
 .row .col-lg-4 .card.col-md-4.col-lg-12 {
 	border: none
 }
-.container-fluid .container .text-center-double {
+.container .container-fluid  .text-center-double {
     border-bottom: medium double #262626;
     text-align: center;
 }
@@ -174,12 +174,6 @@ tr td p {
     font-size: small;
 }
 
-.container .container-fluid .navbar.navbar-expand-lg.navbar-light.bg-light {
-    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(3,3,3,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(3,3,3,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(3,3,3,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(3,3,3,1.00) 100%);
-}
 .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-toggler .navbar-toggler-icon {
     background-color: #EAEAEA;
 }
