@@ -273,3 +273,12 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
+.navbar-nav.mr-auto .nav-item.active .nav-link {
+    background-color: #000000;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 .navbar-nav.mr-auto {
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 .navbar-nav.mr-auto {
+    background-color: #000000;
+}
